@@ -5,6 +5,7 @@ hi SpecialKey          ctermfg=14
 hi clear Directory
 hi Directory                                           cterm=bold
 
+hi SignColumn          ctermfg=7       ctermbg=NONE
 hi CursorLineNr cterm=bold
 hi Question            ctermfg=10
 hi Title               ctermfg=6                       cterm=underline
