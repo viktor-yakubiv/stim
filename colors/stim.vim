@@ -8,6 +8,7 @@ let g:colors_name = expand('<sfile>:t:r')
 
 exec 'source ' . expand('<sfile>:p:h') . '/groups/editor.vim'
 exec 'source ' . expand('<sfile>:p:h') . '/groups/syntax.vim'
+exec 'source ' . expand('<sfile>:p:h') . '/groups/diff.vim'
 
 " Color Reference
 "
