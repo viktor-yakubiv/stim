@@ -36,13 +36,14 @@ end
 
 return {
   normal = {
-    a = { fg = C.White, bg = C.DarkBlue, gui = 'bold' },
+    a = { fg = C.White, bg = C.DarkGrey, gui = 'bold' },
     b = { fg = Major, bg = Background },
     c = { fg = Minor, bg = Background },
   },
   insert = { a = { fg = C.White, bg = C.DarkGreen, gui = 'bold' } },
   visual = { a = { fg = C.White, bg = C.DarkMagenta, gui = 'bold' } },
   replace = { a = { fg = C.White, bg = C.DarkRed, gui = 'bold' } },
+	command = { a = { fg = C.White, bg = C.DarkBlue, gui = 'bold' } },
   inactive = {
     a = { fg = C.LightGrey, bg = C.DarkGrey, gui = 'bold' },
     b = { fg = Minor, bg = Background },
