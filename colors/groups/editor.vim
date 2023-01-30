@@ -18,10 +18,12 @@ if &background == 'light'
 	hi CursorLineNr      ctermfg=7
 	hi LineNr            ctermfg=7
 	hi StatusLine        ctermfg=8       ctermbg=7
+	hi ColorColumn                       ctermbg=7
 else
 	hi NonText           ctermfg=8
 	hi MoreMsg           ctermfg=8
 	hi CursorLineNr      ctermfg=8
 	hi LineNr            ctermfg=8
 	hi StatusLine        ctermfg=7      ctermbg=8
+	hi ColorColumn                      ctermbg=8
 endif
