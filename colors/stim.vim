@@ -10,6 +10,8 @@ exec 'source ' . expand('<sfile>:p:h') . '/groups/editor.vim'
 exec 'source ' . expand('<sfile>:p:h') . '/groups/syntax.vim'
 exec 'source ' . expand('<sfile>:p:h') . '/groups/diff.vim'
 
+exec 'source ' . expand('<sfile>:p:h') . '/integrations/cmp.vim'
+
 " Color Reference
 "
 " OCT     HEX     DEC     Names
